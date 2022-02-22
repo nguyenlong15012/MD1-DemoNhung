@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p id="demo">HẠNH PHÚC nào ở đâu xa
+        <br>hạnh phúc ngay trong trái tim bạn thôi</p>
+    <script>
+
+        var demo = document.getElementById("demo");
+        demo.addEventListener("mouseover",mouseover);
+        demo.addEventListener("mouseout",mouseout);
+
+        function mouseover(){
+            document.getElementById("demo")
+            .style.color = "red"
+        }
+
+        function mouseout(){
+            document.getElementById("demo")
+            .style.color = "green"
+        }
+    </script>
+</body>
+</html>
